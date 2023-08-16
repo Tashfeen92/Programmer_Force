@@ -1,0 +1,661 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+}
+#header {
+  background-color: white;
+  padding: 0px 0px 20px 0px;
+}
+#logo {
+  padding: 50px 0px 0px 50px;
+  width: 8%;
+  float: left;
+}
+#navbarContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+#home {
+  margin: 10px 0px 10px 50%;
+}
+#howTereWorks {
+  margin: 10px 0px 10px 50px;
+}
+#tereBenefits {
+  margin: 10px 0px 10px 50px;
+}
+#helpCenter {
+  background-color: lawngreen;
+  width: 100px;
+  padding: 10px 0px 7px 20px;
+  border-radius: 5px;
+  margin: 0px 0px 0px 50px;
+}
+/* Part 1 --------------------------------------------------------------------------------------------*/
+#mainPart1 {
+  height: auto;
+  display: flex;
+}
+#mainPart1Img {
+  width: 420px;
+  margin: 20px 0px 10px 80px;
+}
+#downloadApp {
+  font-size: 55px;
+  width: 600px;
+  padding: 90px 50px 0px 50px;
+}
+#downloadAppDetails {
+  width: 600px;
+  padding: 20px 50px 0px 50px;
+}
+#download1 {
+  padding: 25px 40px 0px 50px;
+}
+#download2 {
+  padding: 25px 50px 0px 0px;
+}
+/* Part 2 --------------------------------------------------------------------------------------------*/
+#mainParts2 {
+  padding: 50px 50px 50px 50px;
+}
+#mainPart2 {
+  height: 100px;
+  background-color: lawngreen;
+  border-radius: 10px;
+  display: flex;
+}
+#mainPart2P1 {
+  padding: 35px 0px 0px 50px;
+  width: 300px;
+  color: white;
+}
+#mainPart2Input {
+  margin: 35px 0px 0px 120px;
+  width: 400px;
+  height: 30px;
+  padding-left: 10px;
+}
+#mainPart2Button {
+  margin: 35px 0px 0px 20px;
+  width: 150px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+/* Part 3 --------------------------------------------------------------------------------------------*/
+#mainPart3 {
+  height: 170px;
+  text-align: center;
+}
+#mainPart3h3 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+#mainPart3h3span {
+  color: lawngreen;
+}
+#mainPart3P {
+  margin: 10px 300px 0px 300px;
+}
+/* Part 4 --------------------------------------------------------------------------------------------*/
+#mainPart4 {
+  height: 500px;
+}
+#mainPart4Div3 {
+  position: absolute;
+  top: 1110px;
+  left: 512px;
+}
+#mainPart4Div3Img {
+  height: 270px;
+}
+#mainPart4Div4Img {
+  height: 400px;
+  position: absolute;
+  top: 1035px;
+  left: 548px;
+}
+#mainPart4Div1 {
+  width: 500px;
+}
+#mainPart4Div1Img1 {
+  margin: 90px 20px 0px 440px;
+}
+#mainPart4Div1Img2 {
+  position: absolute;
+  top: 1080px;
+  left: 465px;
+}
+#mainPart4Div1h3 {
+  text-align: right;
+  padding-top: 5px;
+  margin: 0px 0px 0px 320px;
+}
+#mainPart4Div1p {
+  text-align: right;
+  padding-top: 5px;
+  margin: 0px 0px 0px 320px;
+}
+#mainPart4Div2 {
+  width: 500px;
+  float: right;
+}
+#mainPart4Div2Img1 {
+  margin: 90px 0px 0px 0px;
+}
+#mainPart4Div2Img2 {
+  position: absolute;
+  top: 1080px;
+  left: 819px;
+}
+#mainPart4Div2h3 {
+  text-align: left;
+  padding-top: 5px;
+}
+#mainPart4Div2p {
+  text-align: left;
+  padding-top: 5px;
+  margin: 0px 320px 0px 0px;
+}
+#mainPart4Div5 {
+  width: 500px;
+}
+#mainPart4Div5Img1 {
+  margin: 30px 20px 0px 440px;
+}
+#mainPart4Div5Img2 {
+  position: absolute;
+  top: 1280px;
+  left: 462px;
+}
+#mainPart4Div5h3 {
+  text-align: right;
+  padding-top: 5px;
+  margin: 0px 0px 0px 320px;
+}
+#mainPart4Div5p {
+  text-align: right;
+  padding-top: 5px;
+  margin: 0px 0px 0px 320px;
+}
+#mainPart4Div6 {
+  width: 500px;
+  float: right;
+}
+#mainPart4Div6Img1 {
+  margin: 30px 0px 0px 0px;
+}
+#mainPart4Div6Img2 {
+  position: absolute;
+  top: 1282px;
+  left: 815px;
+}
+#mainPart4Div6h3 {
+  text-align: left;
+  padding-top: 5px;
+}
+#mainPart4Div6p {
+  text-align: left;
+  padding-top: 5px;
+  margin: 0px 320px 0px 0px;
+}
+
+#head3 {
+  font-size: 40px;
+  padding-top: 70px;
+  text-align: center;
+  background-color: aliceblue;
+}
+#head3span {
+  color: lawngreen;
+}
+/* Part 5 --------------------------------------------------------------------------------------------*/
+#mainPart5 {
+  margin-top: 50px;
+  background-color: aliceblue;
+}
+
+#mainPart5Div1 {
+  background-color: white;
+  margin: 20px 140px 0px 70px;
+  height: 300px;
+}
+#mainPart5Div1Img1 {
+  float: right;
+  height: 250px;
+  margin: 25px 120px 0px 0px;
+}
+#mainPart5Div1Img2 {
+  float: left;
+  margin: 80px 0px 0px 30px;
+}
+#mainPart5Div1h1 {
+  font-size: 30px;
+  padding: 115px 0px 0px 150px;
+}
+#mainPart5Div1p {
+  padding: 10px 0px 0px 30px;
+  width: 400px;
+}
+#mainPart5Div2 {
+  background-color: white;
+  margin: 80px 70px 0px 140px;
+  height: 300px;
+}
+#mainPart5Div2Img1 {
+  float: left;
+  height: 250px;
+  margin: 25px 0px 0px 120px;
+}
+#mainPart5Div2Img2 {
+  margin: 80px 0px 0px 300px;
+}
+#mainPart5Div2h1 {
+  float: right;
+  font-size: 30px;
+  padding: 115px 0px 0px 0px;
+  margin-right: 160px;
+}
+#mainPart5Div2p {
+  padding: 10px 0px 0px 700px;
+  width: 400px;
+}
+#mainPart5Div3 {
+  background-color: white;
+  margin: 80px 140px 0px 70px;
+  height: 300px;
+}
+#mainPart5Div3Img1 {
+  float: right;
+  height: 250px;
+  margin: 25px 120px 0px 0px;
+}
+#mainPart5Div3Img2 {
+  float: left;
+  margin: 80px 0px 0px 30px;
+}
+#mainPart5Div3h1 {
+  font-size: 30px;
+  padding: 115px 0px 0px 160px;
+}
+#mainPart5Div3p {
+  padding: 10px 0px 0px 30px;
+  width: 400px;
+}
+/* Footer --------------------------------------------------------------------------------------------*/
+
+#footerMainDiv {
+  height: 150px;
+  margin-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#footerLogo {
+  height: 30px;
+  margin: 63px 0px 0px 90px;
+}
+#footerDiv1 {
+  padding: 40px 50px 0px 100px;
+}
+#footerDiv2 {
+  padding: 40px 50px 0px 50px;
+}
+#footerDiv1P3,
+#footerDiv1P3 {
+  padding-top: 2px;
+}
+#downloads1 {
+  height: 30px;
+}
+#downloads2 {
+  height: 30px;
+}
+#footerDiv3 {
+  padding: 60px 50px 0px 50px;
+}
+
+/* Media Queries ---------------------------------------------------------------------------------------- */
+/* Media Queries ---------------------------------------------------------------------------------------- */
+/* Media Queries ---------------------------------------------------------------------------------------- */
+/* Media Queries ---------------------------------------------------------------------------------------- */
+/* Media Queries ---------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+  * {
+    text-align: center;
+    max-width: 1024px;
+    /* height: auto; */
+  }
+  #header {
+    background-color: white;
+    padding: 35px 0px 20px 0px;
+  }
+  #logo {
+    padding: 50px 0px 0px 50px;
+    width: 8%;
+    float: left;
+  }
+  #navbarContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  #home {
+    margin: 10px 0px 10px 50%;
+  }
+  #howTereWorks {
+    margin: 10px 0px 10px 50px;
+  }
+  #tereBenefits {
+    margin: 10px 0px 10px 50px;
+  }
+  #helpCenter {
+    background-color: lawngreen;
+    width: 100px;
+    padding: 10px 0px 7px 20px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 50px;
+  }
+  /* Part 1 --------------------------------------------------------------------------------------------*/
+  #mainPart1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #mainPart1Div2 {
+    
+    
+  }
+  #mainPart1Img {
+    display: flex;
+    flex: 1 1 0%;
+    /* width: 420px; */
+    margin: 0px 0px 0px 0px;
+  }
+  #downloadApp {
+    font-size: 30px;
+    /* flex: 1; */
+    padding: 0px 0px 0px 0px;
+  }
+  #downloadAppDetails {
+    /* width: 600px; */
+    /* flex: 1; */
+    padding: 0px 0px 0px 0px;
+  }
+  #download1 {
+    padding: 0px 0px 0px 0px;
+  }
+  #download2 {
+    padding: 0px 0px 0px 0px;
+  }
+  /* Part 2 --------------------------------------------------------------------------------------------*/
+  #mainParts2 {
+    padding: 50px 50px 50px 50px;
+  }
+  #mainPart2 {
+    height: 100px;
+    background-color: lawngreen;
+    border-radius: 10px;
+    display: flex;
+  }
+  #mainPart2P1 {
+    padding: 35px 0px 0px 50px;
+    width: 300px;
+    color: white;
+  }
+  #mainPart2Input {
+    margin: 35px 0px 0px 120px;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+  }
+  #mainPart2Button {
+    margin: 35px 0px 0px 20px;
+    width: 150px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+  /* Part 3 --------------------------------------------------------------------------------------------*/
+  #mainPart3 {
+    height: 170px;
+    text-align: center;
+  }
+  #mainPart3h3 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  #mainPart3h3span {
+    color: lawngreen;
+  }
+  #mainPart3P {
+    margin: 10px 300px 0px 300px;
+  }
+  /* Part 4 --------------------------------------------------------------------------------------------*/
+  #mainPart4 {
+    height: 500px;
+  }
+  #mainPart4Div3 {
+    position: absolute;
+    top: 1110px;
+    left: 512px;
+  }
+  #mainPart4Div3Img {
+    height: 270px;
+  }
+  #mainPart4Div4Img {
+    height: 400px;
+    position: absolute;
+    top: 1035px;
+    left: 548px;
+  }
+  #mainPart4Div1 {
+    width: 500px;
+  }
+  #mainPart4Div1Img1 {
+    margin: 90px 20px 0px 440px;
+  }
+  #mainPart4Div1Img2 {
+    position: absolute;
+    top: 1106px;
+    left: 465px;
+  }
+  #mainPart4Div1h3 {
+    text-align: right;
+    padding-top: 5px;
+    margin: 0px 0px 0px 320px;
+  }
+  #mainPart4Div1p {
+    text-align: right;
+    padding-top: 5px;
+    margin: 0px 0px 0px 320px;
+  }
+  #mainPart4Div2 {
+    width: 500px;
+    float: right;
+  }
+  #mainPart4Div2Img1 {
+    margin: 90px 0px 0px 0px;
+  }
+  #mainPart4Div2Img2 {
+    position: absolute;
+    top: 1104px;
+    left: 819px;
+  }
+  #mainPart4Div2h3 {
+    text-align: left;
+    padding-top: 5px;
+  }
+  #mainPart4Div2p {
+    text-align: left;
+    padding-top: 5px;
+    margin: 0px 320px 0px 0px;
+  }
+  #mainPart4Div5 {
+    width: 500px;
+  }
+  #mainPart4Div5Img1 {
+    margin: 30px 20px 0px 440px;
+  }
+  #mainPart4Div5Img2 {
+    position: absolute;
+    top: 1306px;
+    left: 462px;
+  }
+  #mainPart4Div5h3 {
+    text-align: right;
+    padding-top: 5px;
+    margin: 0px 0px 0px 320px;
+  }
+  #mainPart4Div5p {
+    text-align: right;
+    padding-top: 5px;
+    margin: 0px 0px 0px 320px;
+  }
+  #mainPart4Div6 {
+    width: 500px;
+    float: right;
+  }
+  #mainPart4Div6Img1 {
+    margin: 30px 0px 0px 0px;
+  }
+  #mainPart4Div6Img2 {
+    position: absolute;
+    top: 1307px;
+    left: 815px;
+  }
+  #mainPart4Div6h3 {
+    text-align: left;
+    padding-top: 5px;
+  }
+  #mainPart4Div6p {
+    text-align: left;
+    padding-top: 5px;
+    margin: 0px 320px 0px 0px;
+  }
+
+  #head3 {
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+  #head3span {
+    color: lawngreen;
+  }
+  /* Part 5 --------------------------------------------------------------------------------------------*/
+  #mainPart5 {
+    margin-top: 50px;
+    background-color: aliceblue;
+  }
+
+  #mainPart5Div1 {
+    background-color: white;
+    margin: 20px 140px 0px 70px;
+    height: 300px;
+  }
+  #mainPart5Div1Img1 {
+    float: right;
+    height: 250px;
+    margin: 25px 120px 0px 0px;
+  }
+  #mainPart5Div1Img2 {
+    float: left;
+    margin: 80px 0px 0px 30px;
+  }
+  #mainPart5Div1h1 {
+    font-size: 30px;
+    padding: 115px 0px 0px 150px;
+  }
+  #mainPart5Div1p {
+    padding: 10px 0px 0px 30px;
+    width: 400px;
+  }
+  #mainPart5Div2 {
+    background-color: white;
+    margin: 80px 70px 0px 140px;
+    height: 300px;
+  }
+  #mainPart5Div2Img1 {
+    float: left;
+    height: 250px;
+    margin: 25px 0px 0px 120px;
+  }
+  #mainPart5Div2Img2 {
+    margin: 80px 0px 0px 300px;
+  }
+  #mainPart5Div2h1 {
+    float: right;
+    font-size: 30px;
+    padding: 115px 0px 0px 0px;
+    margin-right: 160px;
+  }
+  #mainPart5Div2p {
+    padding: 10px 0px 0px 700px;
+    width: 400px;
+  }
+  #mainPart5Div3 {
+    background-color: white;
+    margin: 80px 140px 0px 70px;
+    height: 300px;
+  }
+  #mainPart5Div3Img1 {
+    float: right;
+    height: 250px;
+    margin: 25px 120px 0px 0px;
+  }
+  #mainPart5Div3Img2 {
+    float: left;
+    margin: 80px 0px 0px 30px;
+  }
+  #mainPart5Div3h1 {
+    font-size: 30px;
+    padding: 115px 0px 0px 160px;
+  }
+  #mainPart5Div3p {
+    padding: 10px 0px 0px 30px;
+    width: 400px;
+  }
+  /* Footer --------------------------------------------------------------------------------------------*/
+
+  #footerMainDiv {
+    height: 150px;
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #footerLogo {
+    height: 30px;
+    margin: 63px 0px 0px 90px;
+  }
+  #footerDiv1 {
+    padding: 40px 50px 0px 100px;
+  }
+  #footerDiv2 {
+    padding: 40px 50px 0px 50px;
+  }
+  #footerDiv1P3,
+  #footerDiv1P3 {
+    padding-top: 2px;
+  }
+  #downloads1 {
+    height: 30px;
+  }
+  #downloads2 {
+    height: 30px;
+  }
+  #footerDiv3 {
+    padding: 60px 50px 0px 50px;
+  }
+}
